@@ -54,8 +54,8 @@ function onLaunch(launchRequest, session, callback) {
             console.log("onLaunch requestId=" + launchRequest.requestId
                 + ", sessionId=" + session.sessionId);
 
-            var cardTitle = "Hallo Welt"
-            var speechOutput = "Sage Hallo Welt um Hallo Welt als Antwort zu bekommen!"
+            var cardTitle = "Hallo Welt";
+            var speechOutput = "Sage Hallo Welt um Hallo Welt als Antwort zu bekommen!";
             callback(session.attributes,
                 buildSpeechletResponse(cardTitle, speechOutput, "", true));
 }
